@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		68921FF31E17DD5C005957F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68921FF21E17DD5C005957F0 /* AppDelegate.swift */; };
-		68921FF51E17DD5C005957F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68921FF41E17DD5C005957F0 /* ViewController.swift */; };
+		68921FF51E17DD5C005957F0 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68921FF41E17DD5C005957F0 /* WebViewController.swift */; };
 		68921FF81E17DD5C005957F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68921FF61E17DD5C005957F0 /* Main.storyboard */; };
 		68921FFA1E17DD5C005957F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68921FF91E17DD5C005957F0 /* Assets.xcassets */; };
 		68921FFD1E17DD5C005957F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68921FFB1E17DD5C005957F0 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		68921FEF1E17DD5C005957F0 /* MagicMirrorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicMirrorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68921FF21E17DD5C005957F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		68921FF41E17DD5C005957F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68921FF41E17DD5C005957F0 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		68921FF71E17DD5C005957F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68921FF91E17DD5C005957F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68921FFC1E17DD5C005957F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				68921FF21E17DD5C005957F0 /* AppDelegate.swift */,
-				68921FF41E17DD5C005957F0 /* ViewController.swift */,
+				68921FF41E17DD5C005957F0 /* WebViewController.swift */,
 				68921FF61E17DD5C005957F0 /* Main.storyboard */,
 				68921FF91E17DD5C005957F0 /* Assets.xcassets */,
 				68921FFB1E17DD5C005957F0 /* LaunchScreen.storyboard */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68921FF51E17DD5C005957F0 /* ViewController.swift in Sources */,
+				68921FF51E17DD5C005957F0 /* WebViewController.swift in Sources */,
 				68921FF31E17DD5C005957F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,7 +204,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -248,7 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
